@@ -5,28 +5,18 @@ sites:
   - name: App 2Talk
     url: https://app.2talk.com
     icon: https://app.2talk.com/2talk/favicon-32x32.png
-    assignees:
-      - desdiogo
 
   - name: Ci 2 Talk
     url: https://ci-switch.2talk.com/
     icon: https://ci-switch.2talk.com/2talk/favicon-32x32.png
-    assignees:
-      - desdiogo
 
   - name: App Sipcity
     url: https://app.sipcity.com.au/
     icon: https://app.sipcity.com.au/SIPcity/favicon-32x32.png
-    assignees:
-      - desdiogo
 
   - name: Ci Sipcity
     url: https://ci-switch.sipcity.com.au/
     icon: https://ci-switch.sipcity.com.au/SIPcity/favicon-32x32.png
-    assignees:
-      - desdiogo
-
-skipDeleteIssues: true
 
 status-website:
   baseUrl: /uptime
@@ -40,18 +30,6 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Configurações de checagem
-workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "*/5 * * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
-
-# Configurações de usuário
-user-agent: desdiogo
 i18n:
   activeIncidents: Incidentes Ativos
   allSystemsOperational: Todos os sistemas estão operacionais
