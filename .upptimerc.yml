@@ -21,7 +21,7 @@ sites:
 status-website:
   baseUrl: /uptime
   name: Status
-  theme: light
+  theme: dark
   introTitle: "Status dos Serviços"
   introMessage: "Esta página mostra o status em tempo real dos nossos serviços"
   navbar:
@@ -29,20 +29,3 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-i18n:
-  activeIncidents: Incidentes Ativos
-  allSystemsOperational: Todos os sistemas estão operacionais
-  incidentReport: "Relatório de Incidente #$NUMBER →"
-  activeIncidentSummary: Aberto em $DATE com $POSTS posts
-  incidentTitle: Detalhes do Incidente $NUMBER
-  incidentDetails: Detalhes do Incidente
-  incidentFixed: Resolvido
-  incidentOngoing: Em andamento
-  incidentOpenedAt: Aberto em
-  incidentClosedAt: Fechado em
-  incidentViewOnGitHub: Ver no GitHub
-  incidentCommentSummary: Postado em $DATE por $AUTHOR
-  incidentBack: ← Voltar para todos os incidentes
-  pastIncidents: Incidentes Anteriores
-  pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS posts
