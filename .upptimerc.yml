@@ -26,6 +26,6 @@ status-website:
   introMessage: "Esta página mostra o status em tempo real dos nossos serviços"
   navbar:
     - title: Status
-      href: /
+      href: /uptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
